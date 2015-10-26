@@ -14,7 +14,7 @@ def main
     params[params['STDIN'].to_s.strip] = STDIN.read
   end
 
-  log_dir = prams["LOR_DIR"].to_s == "" ? "." : params["LOG_DIR"]
+  log_dir = params["LOR_DIR"].to_s == "" ? "." : params["LOG_DIR"]
   ["mail","errmail"].each do |x|
     Dir.mkdir(File.join(log_dir,x)) unless Dir.exists?(File.join(log_dir,x))
   end
