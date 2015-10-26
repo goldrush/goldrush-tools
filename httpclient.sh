@@ -12,6 +12,5 @@ shift 1
 umask 002
 
 cd $(dirname $0)
-cd ..
-${RUBY} tools/httpclient.rb $*
+${RUBY} httpclient.rb $*
 
