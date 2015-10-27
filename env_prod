@@ -1,0 +1,8 @@
+RUBY=/usr/local/rvm/rubies/ruby-1.9.3-p392/bin/ruby
+GR_HOME=/var/goldrush
+RAILS_ROOT=$GR_HOME/goldrush
+BOUNCE_HAMMER_ROOT=$GR_HOME/tools/bouncehammer
+MAILBOX_PARSER=${BOUNCE_HAMMER_ROOT}/bin/mailboxparser
+BACKUP_DIR=$GR_HOME/backup
+SCRIPT_HOME=$GR_HOME/script
+
